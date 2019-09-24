@@ -1,10 +1,10 @@
 # mern-crud
 
-# New Client
-![New Client](scr-1.png)   
+## New Client
+![New Client](scr-1.PNG)   
 
-# Client List
-![Client List](scr-2.png)   
+## Client List
+![Client List](scr-2.PNG)   
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
