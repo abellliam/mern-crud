@@ -1,10 +1,45 @@
 # mern-crud
+A financial bookkeeping and report generating application written on the MERN (MongoDB, Express, React and NodeJS)
+stack. This application can keep track of accounts, transactions between accounts and process interest
+as well as generate printable client and general reports.
+
+Given the framework in which the application is built, a user authentication service could easily be added
+and the application converted to an online client-server app for the benefit of multiple users, use outside of office etc.
+However, the client for whom this application was made was happier with a local version for the benefit of security.
+
+To use the application follow these steps:
+* Create and use a mongoDB database 'crud'
+* Run 'npm install' in root project directory to install necessary node modules
+* In one terminal window, navigate to the backend folder and run 'node server' to start the back end
+* In another, run 'npm start' in the root project directory
+
+A new window should appear on your default browser showing the application
+If it doesn't, navigate to localhost on port 3000
+
+
+Note: in order to use the application an initial interest rate must be sent to the backend of the
+application through use of postman or similar as shown below 
+![Postman rate posting](scr-post.PNG)
+
+# Screenshots
 
 ## Client entry form
 ![New Client](scr-1.PNG)   
 
-## Client List
-![Client List](scr-2.PNG)   
+## Client list
+![Client List](scr-2.PNG)
+
+## Transaction list
+![Transaction List](scr-3.PNG)
+
+## Processing
+![Monthly Processing](scr-4.PNG)
+
+## General report
+![General Report](scr-5.PNG)
+
+## Client-specific report
+![Client Report](scr-6.PNG)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
