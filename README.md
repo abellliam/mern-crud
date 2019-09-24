@@ -1,6 +1,6 @@
 # mern-crud
 
-## New Client
+## Client entry form
 ![New Client](scr-1.PNG)   
 
 ## Client List
